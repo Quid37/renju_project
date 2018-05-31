@@ -7,5 +7,4 @@ Year 2018.
 Description of the repository.
 1) The AlphaGo pdf file contains the paper, on which our project was based.
 2) The folder laboratory_tasks contains training tasks, aimed on improving machine learning skills.
-3) The folder renju contains the project itself with the project review, trained model, the Game class,
-   and additional program to play in Human vs. Machine mode.
+3) The folder renju contains the project itself with the project overview, trained model, the Game class, and additional program to play in Human vs. Machine mode.
