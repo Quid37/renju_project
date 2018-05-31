@@ -1,3 +1,4 @@
+Repository desription.
 1) The Renju_Game.py file is the Game class and a client,
   which recieves history of all steps made so far and returns the new step.
 2) The .meta, .data, .index and checkpoint files and necessary for the client to load the predicting model.
