@@ -2,4 +2,10 @@ This folder contains program, which i trained my model with.
 It supports augmentation and randomization of batches from the data.
 
 The data with games won (or with draw result) by black or white are called "train-black.renju", "train-white.renju" correspondingly.
-It is also stored in the folder.
+The data is provided in the links below:
+
+"train-black.renju":
+  https://www.dropbox.com/s/8my7vshnq175acc/train-black.renju?dl=0
+  
+"train-white.renju":
+  https://www.dropbox.com/s/akeo5oe2w9wtu82/train-white.renju?dl=0
