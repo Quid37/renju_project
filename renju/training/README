@@ -1,0 +1,5 @@
+This folder contains program, with which i trained my model. 
+It supports augmentation and randomization of batches from the data.
+
+The data with games won (or with draw result) by black or white are called "train-black.renju", "train-white.renju" correspondingly.
+It is also stored in the folder.
