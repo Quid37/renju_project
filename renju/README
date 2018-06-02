@@ -5,7 +5,7 @@ Repository desription.
 3) The run_game_vs_player.py file also requires files, described above.
   The file is an environment to play in Human vs. Machine mode. Fisrt person should chose its color: "b" for black (first player) and "w" for white (second player). Then the game board is pictured every step and the player only has to write his next step, until the game is finished.
   This version of client doesn't include the Monte-Carlo tree search method, and bases only on the trained model.
-  
+4) Training folder contains python program for model training and data, used for training.
   
 You may find the description of the work in the Project_description.pdf file.
 
