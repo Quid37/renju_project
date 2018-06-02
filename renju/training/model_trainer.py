@@ -330,7 +330,7 @@ exit()
 prediction = tf.reshape(tf.reshape(predict_, [-1, 15, 15]), [-1, 225], name="my_prediction")
 cross_entropy = tf.reduce_mean(
 					tf.nn.softmax_cross_entropy_with_logits(labels = y_,
-															logits = prediction))
+									logits = prediction))
 train_step = tf.train.AdamOptimizer(0.0001).minimize(cross_entropy)
 
 sess = tf.InteractiveSession()
@@ -370,7 +370,7 @@ for epoch in range(EPOCH_NUM):
 			#print()
 			random_subarr = np.random.randint(whsz + blsz, size=TEST_SIZE)
 			acc_computed = accuracy.eval(feed_dict={x: test_features[random_subarr, :, :, :],
-													 y_: np.reshape(test_labels[random_subarr, :, :], (TEST_SIZE, 15 * 15))})
+						y_: np.reshape(test_labels[random_subarr, :, :], (TEST_SIZE, 15 * 15))})
 			print("Accuracy:", acc_computed)
 			print()
 
